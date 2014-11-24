@@ -8,7 +8,7 @@
     * first_name (string)
     * last_name (string)
     * date_of_birth (date)
-* Run migrations
+* Run migrations with `rake db:migrate`
 * Run the server and visit http://localhost:3000/people
 * Inspect the `db/schema.rb`
 * Inspect the `config/routes.rb`
@@ -19,7 +19,7 @@
 * Scaffold an `organization` with the following attributes:
     * name (string)
     * number_of_employees (integer)
-* Run migrations
+* Run migrations with `rake db:migrate`
 * Visit http://localhost:3000/organizations
 * Inspect the `db/schema.rb`
 * Inspect the `config/routes.rb`
